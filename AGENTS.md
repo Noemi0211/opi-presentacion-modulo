@@ -61,6 +61,7 @@ Cronológico:
 8. **2026-09-15 · Verificación.** Estructura de etiquetas balanceada (script Node), rutas `css/` y `js/` correctas desde el raíz, footer exacto presente, marcas `<!-- IMAGEN SUGERIDA -->` y `.image-placeholder` en su sitio. **FASE 1 (presentación) COMPLETADA.**
 9. **2026-09-15 · Rúbricas completas.** Añadida la sección «Rúbricas de evaluación» (índice, `index.md` e `index.html`) con las tres rúbricas generales del documento oficial transcritas enteras (23 criterios × 4 niveles), la tabla de pesos de evidencias y la guía de lectura. Nuevos componentes CSS `.rubric`, `.rubric__head`, `.rubric__levels` y niveles coloreados `.c-10/.c-7/.c-4/.c-1` (verde/azul/ámbar/rojo). Enlace `#rubricas` añadido al menú lateral y TOC automático.
 10. **2026-09-15 · Lista para publicar en GitHub Pages.** Creado `.gitignore` (excluye el PDF fuente, licencia BY-NC-SA) y `docs/instrucciones-aules.md` (pasos exactos de repositorio, GitHub Pages y enlazado en Aules). Repositorio git inicializado (rama `main`) y **commit inicial realizado: `54df32d`**. Pendiente de usuario: crear repo remoto, push y activar GitHub Pages.
+11. **2026-09-15 · Publicación.** Repositorio público creado: `Noemi0211/opi-presentacion-modulo` (remote `origin`), push realizado y **GitHub Pages activado**. URL: `https://noemi0211.github.io/opi-presentacion-modulo/` (verificada HTTP 200 con la portada cargando). Pendiente de usuario: enlazar el recurso URL en Aules (ver `docs/instrucciones-aules.md`, paso 4).
 
 ## Tareas pendientes
 
