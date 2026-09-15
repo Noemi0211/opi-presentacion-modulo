@@ -1,0 +1,21 @@
+$CATEGORY: OFI/OPI/PRES/01-presentacion-modulo
+
+::OPI PRES 01 - Horas del módulo::¿Cuántas horas de formación tiene el módulo Ofimática (OPI)?{=200 horas~100 horas~150 horas~250 horas}
+
+::OPI PRES 02 - Unidades del módulo::¿Cuántas unidades de programación (UP) incluye el módulo?{=9~6~12~3}
+
+::OPI PRES 03 - RA con más peso::¿Qué resultado de aprendizaje tiene el mayor peso en la nota final?{=RA2 · Técnica mecanográfica (25 \%)~RA4 · Hojas de cálculo (15 \%)~RA1 · Mantenimiento de equipos (9 \%)~RA6 · Bases de datos (15 \%)}
+
+::OPI PRES 04 - Rúbrica del trabajo diario::¿Qué rúbrica valora la participación, la gestión del tiempo y el trabajo colaborativo en el aula?{=Rúbrica 1 · Observación sistemática del trabajo diario~Rúbrica 2 · Actividades prácticas y retos profesionales~Rúbrica 3 · Pruebas prácticas por resultado de aprendizaje~Ninguna de las anteriores}
+
+::OPI PRES 05 - Condición RA2::¿Qué condición es imprescindible para superar el RA2 (Técnica mecanográfica)?{=Alcanzar 200 pulsaciones por minuto con un máximo de 1 error por minuto en la evaluación final~Escribir 100 pulsaciones por minuto en el primer trimestre~Completar todas las actividades teóricas del primer trimestre~Realizar solo la prueba práctica de la segunda evaluación}
+
+::OPI PRES 06 - Pulsaciones netas::¿Cómo se calculan las pulsaciones netas en mecanografía?{=Pulsaciones por minuto - (errores x 5)~Pulsaciones por minuto - (errores x 2)~Pulsaciones por minuto + (errores x 5)~Pulsaciones por minuto - errores}
+
+::OPI PRES 07 - Evidencia de mayor peso::¿Qué tipo de evidencia tiene el mayor peso en la calificación de cada unidad?{=La prueba objetiva práctica (50-65 \%)~Las actividades de observación (10 \%)~Las actividades teóricas (5-10 \%)~La prueba objetiva teórica (10-20 \%)}
+
+::OPI PRES 08 - Horas dual::¿Cuántas horas de formación en empresa (dual) incluye el módulo en la UP06?{=18 horas~10 horas~30 horas~5 horas}
+
+::OPI PRES 09 - Convocatoria extraordinaria::¿En qué consiste la convocatoria extraordinaria?{=Una prueba escrita y práctica solo sobre los RA con nota inferior a 5, cuyo resultado cuenta el 100 \% en esos RA~Una repetición de todas las actividades del curso~Una prueba opcional que siempre sube la nota~Una tutoría individual sin prueba}
+
+::OPI PRES 10 - Nivel objetivo en rúbricas::¿Qué nivel de las rúbricas describe la actuación objetivo para sacar la máxima nota?{=10 · Excelente~7 · Bien~4 · Aceptable~1 · A desarrollar}
