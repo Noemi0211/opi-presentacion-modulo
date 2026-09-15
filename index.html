@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Presentación del módulo Ofimática (OPI). 200 horas. CFGS Documentación y Administración Sanitarias. Material Moodle bilingüe de Vibecoding.">
+  <meta name="author" content="Noemí Celaya Mingot">
+  <meta name="license" content="CC BY-SA 4.0">
+  <title>Ofimática · Presentación del módulo</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231A1F2E'/%3E%3Ctext x='16' y='21' font-family='Syne,sans-serif' font-size='14' font-weight='700' fill='%234ECCA3' text-anchor='middle'%3EOP%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__brand">
+      <button class="header__menu-btn" id="btnMenu" aria-label="Abrir menú" aria-expanded="false" aria-controls="sidebar">☰</button>
+      <a href="index.html">
+        <span class="header__logo">OP</span>
+        <span class="header__title">
+          Presentación del módulo
+          <small>OFIMÁTICA · CFGS Documentación y Administración Sanitarias</small>
+        </span>
+      </a>
+    </div>
+  </header>
+
+  <div class="layout">
+
+    <aside class="sidebar" id="sidebar" aria-label="Menú de navegación">
+      <nav>
+        <div class="sidebar__section">
+          <div class="sidebar__label">Unidades del módulo</div>
+          <ul class="sidebar__blocks">
+            <li class="sidebar__block"><a href="index.html"><span>Inicio</span> Presentación del módulo</a></li>
+            <li class="sidebar__block"><a href="#"><span>UP01</span> Mantenimiento de equipos, aplicaciones y red</a></li>
+            <li class="sidebar__block"><a href="#"><span>UP02</span> Técnica mecanográfica</a></li>
+            <li class="sidebar__block"><a href="#"><span>UP03</span> Gestión de archivos y búsqueda de información</a></li>
+            <li class="sidebar__block"><a href="#"><span>UP04</span> Hojas de cálculo</a></li>
+            <li class="sidebar__block"><a href="#"><span>UP05</span> Procesadores de texto</a></li>
+            <li class="sidebar__block"><a href="#"><span>UP06</span> Bases de datos</a></li>
+            <li class="sidebar__block"><a href="#"><span>UP07</span> Gestión integrada de archivos</a></li>
+            <li class="sidebar__block"><a href="#"><span>UP08</span> Correo y agenda electrónica</a></li>
+            <li class="sidebar__block"><a href="#"><span>UP09</span> Presentaciones</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__section">
+          <div class="sidebar__label">En esta página</div>
+          <a class="sidebar__link" href="#bienvenida">Bienvenida</a>
+          <a class="sidebar__link" href="#que-aprenderas">¿Qué aprenderás?</a>
+          <a class="sidebar__link" href="#recorrido">Tu recorrido</a>
+          <a class="sidebar__link" href="#resultados">Resultados de aprendizaje</a>
+          <a class="sidebar__link" href="#evaluacion">Cómo te evaluarán</a>
+          <a class="sidebar__link" href="#rubricas">Rúbricas de evaluación</a>
+          <a class="sidebar__link" href="#calendario">Calendario orientativo</a>
+          <a class="sidebar__link" href="#herramientas">Herramientas</a>
+          <a class="sidebar__link" href="#consejos">Consejos</a>
+          <a class="sidebar__link" href="#faq">Preguntas frecuentes</a>
+          <a class="sidebar__link" href="#viaje">Comienza tu viaje</a>
+        </div>
+      </nav>
+      <div class="sidebar__footer">
+        Material Moodle bilingüe de Vibecoding<br>
+        HTML generado desde Markdown · CC BY-SA 4.0
+      </div>
+    </aside>
+
+    <main class="main" id="main">
+
+      <section class="hero">
+        <div class="hero__kicker">Ofimática · Presentación del módulo</div>
+        <h1>Tu viaje empieza aquí: la ofimática del centro sanitario</h1>
+        <p>Bienvenida y bienvenido. En este módulo aprenderás a dominar las herramientas digitales del puesto de trabajo administrativo-sanitario: documentos, datos, correo, agenda y presentaciones.</p>
+        <div class="hero__badges">
+          <span class="hero__badge">CFGS Documentación y Administración Sanitarias</span>
+          <span class="hero__badge">200 horas · 9 unidades</span>
+          <span class="hero__badge">Curso 2026-2027</span>
+          <span class="hero__badge">CC BY-SA 4.0</span>
+        </div>
+      </section>
+
+      <!-- IMAGEN SUGERIDA: portada-bienvenida (imagen conceptual de escritorio sanitario digital) -->
+      <div class="image-placeholder image-placeholder--hero">
+        Imagen recomendada: <strong>Escritorio de trabajo ofimático en un centro sanitario</strong>
+      </div>
+
+      <div class="toc" id="toc-automatico"></div>
+
+      <section id="bienvenida">
+        <h2 id="bienvenida-h2">Bienvenida al módulo</h2>
+        <p>La ofimática es la base de la gestión sanitaria moderna. A lo largo del curso te convertirás en la persona que <strong>organiza, produce y protege la información</strong> con criterio profesional.</p>
+        <p>No se trata solo de manejar programas: aprenderás a producir resultados de calidad con la <strong>precisión</strong> y la <strong>confidencialidad</strong> que exige el entorno sanitario.</p>
+
+        <div class="stat-grid" role="list" aria-label="Datos del módulo">
+          <div class="stat" role="listitem">
+            <span class="stat__num">200 h</span>
+            <span class="stat__label">de formación</span>
+          </div>
+          <div class="stat" role="listitem">
+            <span class="stat__num">9</span>
+            <span class="stat__label">unidades de programación</span>
+          </div>
+          <div class="stat" role="listitem">
+            <span class="stat__num">3</span>
+            <span class="stat__label">evaluaciones</span>
+          </div>
+          <div class="stat" role="listitem">
+            <span class="stat__num">9</span>
+            <span class="stat__label">resultados de aprendizaje</span>
+          </div>
+        </div>
+
+        <div class="callout callout--key">
+          <p><strong>💡 Idea clave:</strong> la constancia y la práctica semanal valen más que la experiencia previa. Este módulo parte de cero y avanza de forma progresiva.</p>
+        </div>
+
+        <div class="callout callout--health">
+          <p>Toda práctica que realices tendrá un contexto sanitario: informes, historias clínicas, estadísticas, citación, archivo y comunicación profesional. Así tu aprendizaje se conecta con tu futuro trabajo.</p>
+        </div>
+      </section>
+
+      <section id="que-aprenderas">
+        <h2 id="que-aprenderas-h2">¿Qué aprenderás?</h2>
+        <p>Nueve competencias profesionales, una por cada unidad del módulo:</p>
+
+        <div class="card-grid">
+          <div class="card">
+            <div class="card__icon">💻</div>
+            <h3>Mantener equipos</h3>
+            <p>Instalar, configurar y mantener en buen estado equipos, aplicaciones y redes del puesto de trabajo.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">⌨️</div>
+            <h3>Escribir a velocidad profesional</h3>
+            <p>Técnica mecanográfica con progresión continua: hasta 200 pulsaciones por minuto al final del curso.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">🗂️</div>
+            <h3>Gestionar archivos e información</h3>
+            <p>Organizar, archivar, buscar y seleccionar información con métodos convencionales e informáticos.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">📊</div>
+            <h3>Trabajar con hojas de cálculo</h3>
+            <p>Tablas, fórmulas, funciones, análisis de datos y gráficos adaptados a cada necesidad.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">📝</div>
+            <h3>Elaborar documentos profesionales</h3>
+            <p>Textos con formato avanzado, estilos, formularios e informes impecables.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">🗄️</div>
+            <h3>Gestionar bases de datos</h3>
+            <p>Tablas, consultas, formularios e informes para la información administrativa.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">🔗</div>
+            <h3>Integrar información</h3>
+            <p>Combinar datos de distintas aplicaciones y archivos audiovisuales.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">📧</div>
+            <h3>Organizar correo y agenda</h3>
+            <p>Comunicación y organización profesional eficaz con aplicaciones específicas.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">🎤</div>
+            <h3>Crear y exponer presentaciones</h3>
+            <p>Diseño, comunicación y exposición de presentaciones multimedia.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="recorrido">
+        <h2 id="recorrido-h2">Tu recorrido de aprendizaje</h2>
+        <p>La planificación oficial reparte las nueve unidades en <strong>tres evaluaciones</strong>. Este es el orden en que avanzarás:</p>
+
+        <div class="eval-grid">
+          <article class="eval-card">
+            <div class="eval-card__head">
+              <strong>1.ª evaluación</strong>
+              <span>65 h · RA1 y RA2</span>
+            </div>
+            <div class="eval-card__body">
+              <ul>
+                <li><span>UP01 · Mantenimiento de equipos, aplicaciones y red</span><em>20 h</em></li>
+                <li><span>UP02 · Técnica mecanográfica</span><em>45 h</em></li>
+              </ul>
+            </div>
+          </article>
+          <article class="eval-card">
+            <div class="eval-card__head">
+              <strong>2.ª evaluación</strong>
+              <span>75 h · RA3 a RA5</span>
+            </div>
+            <div class="eval-card__body">
+              <ul>
+                <li><span>UP03 · Gestión de archivos y búsqueda de información</span><em>10 h</em></li>
+                <li><span>UP04 · Hojas de cálculo</span><em>35 h</em></li>
+                <li><span>UP05 · Procesadores de texto</span><em>30 h</em></li>
+              </ul>
+            </div>
+          </article>
+          <article class="eval-card">
+            <div class="eval-card__head">
+              <strong>3.ª evaluación</strong>
+              <span>60 h · RA6 a RA9</span>
+            </div>
+            <div class="eval-card__body">
+              <ul>
+                <li><span>UP06 · Bases de datos</span><em>12 h aula + 18 h dual</em></li>
+                <li><span>UP07 · Gestión integrada de archivos</span><em>10 h</em></li>
+                <li><span>UP08 · Correo y agenda electrónica</span><em>10 h</em></li>
+                <li><span>UP09 · Presentaciones</span><em>10 h</em></li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="callout callout--summary">
+          <p>La temporización es orientativa y puede adaptarse al ritmo real del grupo a lo largo del curso. Las horas de examen están incluidas dentro de cada unidad.</p>
+        </div>
+      </section>
+
+      <section id="resultados">
+        <h2 id="resultados-h2">Resultados de aprendizaje</h2>
+        <p>Los <strong>resultados de aprendizaje (RA)</strong> son los grandes logros que demostrarás: la forma concreta de comprobar que dominas cada competencia. Cada RA se trabaja mediante una o varias unidades y tiene un peso en la nota final.</p>
+
+        <div class="table-wrap">
+          <table aria-label="Pesos de los resultados de aprendizaje en la nota final">
+            <thead>
+              <tr>
+                <th>RA</th>
+                <th>Resultado de aprendizaje</th>
+                <th>Peso</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>RA1</strong></td><td>Mantener equipos, aplicaciones y red en condiciones óptimas</td><td><span class="weight-badge">9 %</span></td></tr>
+              <tr><td><strong>RA2</strong></td><td>Escribir textos alfanuméricos con técnica mecanográfica</td><td><span class="weight-badge">25 %</span></td></tr>
+              <tr><td><strong>RA3</strong></td><td>Gestionar sistemas de archivo y buscar información</td><td><span class="weight-badge">9 %</span></td></tr>
+              <tr><td><strong>RA4</strong></td><td>Elaborar hojas de cálculo con opciones avanzadas</td><td><span class="weight-badge">15 %</span></td></tr>
+              <tr><td><strong>RA5</strong></td><td>Elaborar documentos de texto con opciones avanzadas</td><td><span class="weight-badge">15 %</span></td></tr>
+              <tr><td><strong>RA6</strong></td><td>Utilizar bases de datos con opciones avanzadas</td><td><span class="weight-badge">15 %</span></td></tr>
+              <tr><td><strong>RA7</strong></td><td>Gestionar información de forma integrada</td><td><span class="weight-badge">3 %</span></td></tr>
+              <tr><td><strong>RA8</strong></td><td>Gestionar correo y agenda electrónica</td><td><span class="weight-badge">6 %</span></td></tr>
+              <tr><td><strong>RA9</strong></td><td>Elaborar presentaciones multimedia</td><td><span class="weight-badge">3 %</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Qué se valora en cada uno</h3>
+        <ul class="ra-list">
+          <li>
+            <span class="ra-num">RA1</span>
+            <div class="ra-body">
+              <div class="ra-title"><span>Mantenimiento de equipos</span><span class="weight-badge">9 %</span></div>
+              <p>Configuración de equipos, mantenimiento, resolución de incidencias y seguridad informática.</p>
+            </div>
+          </li>
+          <li>
+            <span class="ra-num">RA2</span>
+            <div class="ra-body">
+              <div class="ra-title"><span>Técnica mecanográfica</span><span class="weight-badge">25 %</span></div>
+              <p>Velocidad, precisión, evolución a lo largo del curso y técnica al teclado.</p>
+            </div>
+          </li>
+          <li>
+            <span class="ra-num">RA3</span>
+            <div class="ra-body">
+              <div class="ra-title"><span>Archivos e información</span><span class="weight-badge">9 %</span></div>
+              <p>Organización documental, búsqueda de información y seguridad.</p>
+            </div>
+          </li>
+          <li>
+            <span class="ra-num">RA4</span>
+            <div class="ra-body">
+              <div class="ra-title"><span>Hojas de cálculo</span><span class="weight-badge">15 %</span></div>
+              <p>Fórmulas, funciones, análisis de datos y gráficos.</p>
+            </div>
+          </li>
+          <li>
+            <span class="ra-num">RA5</span>
+            <div class="ra-body">
+              <div class="ra-title"><span>Procesadores de texto</span><span class="weight-badge">15 %</span></div>
+              <p>Formato profesional, estilos, formularios e informes.</p>
+            </div>
+          </li>
+          <li>
+            <span class="ra-num">RA6</span>
+            <div class="ra-body">
+              <div class="ra-title"><span>Bases de datos</span><span class="weight-badge">15 %</span></div>
+              <p>Tablas, consultas, formularios e informes.</p>
+            </div>
+          </li>
+          <li>
+            <span class="ra-num">RA7</span>
+            <div class="ra-body">
+              <div class="ra-title"><span>Gestión integrada</span><span class="weight-badge">3 %</span></div>
+              <p>Integración de información entre aplicaciones y archivos audiovisuales.</p>
+            </div>
+          </li>
+          <li>
+            <span class="ra-num">RA8</span>
+            <div class="ra-body">
+              <div class="ra-title"><span>Correo y agenda</span><span class="weight-badge">6 %</span></div>
+              <p>Correo electrónico, agenda y organización profesional.</p>
+            </div>
+          </li>
+          <li>
+            <span class="ra-num">RA9</span>
+            <div class="ra-body">
+              <div class="ra-title"><span>Presentaciones</span><span class="weight-badge">3 %</span></div>
+              <p>Diseño, comunicación y exposición de presentaciones.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="evaluacion">
+        <h2 id="evaluacion-h2">Cómo te evaluarán</h2>
+        <p>La evaluación se apoya en <strong>evidencias de aprendizaje</strong>: actividades, prácticas, retos profesionales y pruebas. Cada evidencia se valora con instrumentos específicos.</p>
+
+        <ul class="ce-list">
+          <li><span class="ce-letter">✓</span><span><strong>Rúbricas</strong> específicas y generales de observación, prácticas y pruebas.</span></li>
+          <li><span class="ce-letter">✓</span><span><strong>Listas de cotejo</strong> del trabajo diario.</span></li>
+          <li><span class="ce-letter">✓</span><span><strong>Diario de observación</strong> sistemática en el aula.</span></li>
+          <li><span class="ce-letter">✓</span><span><strong>Cuestionarios objetivos</strong> de base teórica.</span></li>
+          <li><span class="ce-letter">✓</span><span><strong>Pruebas prácticas</strong> de dominio de las herramientas.</span></li>
+          <li><span class="ce-letter">✓</span><span><strong>Registros específicos de mecanografía</strong>.</span></li>
+        </ul>
+
+        <p>Cada unidad publica su <strong>tabla de calificación</strong>: qué evidencias se generan y cuánto pesan. Así sabrás siempre qué se espera de tu trabajo.</p>
+
+        <div class="callout callout--key">
+          <p><strong>💡 Nota = RA1×9 % + RA2×25 % + RA3×9 % + RA4×15 % + RA5×15 % + RA6×15 % + RA7×3 % + RA8×6 % + RA9×3 %</strong></p>
+        </div>
+
+        <div class="callout callout--summary">
+          <p>Es imprescindible superar <strong>todos</strong> los RA con al menos un 5. Si algún RA queda por debajo, la evaluación queda suspensa y se recupera en la convocatoria correspondiente.</p>
+        </div>
+
+        <h3>La mecanografía (RA2), un caso especial</h3>
+        <p>La práctica mecanográfica se entrena <strong>una sesión semanal durante todo el curso</strong>, aunque la teoría se trabaje en el primer trimestre. Estos son tus objetivos de referencia:</p>
+
+        <div class="table-wrap">
+          <table aria-label="Objetivos de mecanografía por evaluación">
+            <thead>
+              <tr>
+                <th>Evaluación</th>
+                <th>Velocidad mínima</th>
+                <th>Errores máximos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>1.ª evaluación</td><td><strong>120 ppm</strong></td><td>3 por minuto</td></tr>
+              <tr><td>2.ª evaluación</td><td><strong>160 ppm</strong></td><td>2 por minuto</td></tr>
+              <tr><td>Evaluación final</td><td><strong>200 ppm</strong></td><td>1 por minuto</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>El rendimiento se calcula con la fórmula <strong>pulsaciones netas = pulsaciones por minuto − (errores × 5)</strong>. Por ejemplo: 215 pulsaciones con 2 errores dan <strong>205 pulsaciones netas</strong>.</p>
+
+        <div class="callout callout--health">
+          <p>Para superar el RA2 es <strong>imprescindible</strong> acreditar en la evaluación final un mínimo de <strong>200 pulsaciones por minuto</strong> con <strong>máximo 1 error por minuto</strong>, aunque se hayan superado el resto de actividades y pruebas del resultado de aprendizaje.</p>
+        </div>
+
+        <h3>Recuperación</h3>
+        <ul>
+          <li><strong>Convocatoria ordinaria:</strong> una única convocatoria a final de curso si queda algún RA suspendido.</li>
+          <li><strong>Convocatoria extraordinaria:</strong> escrita y práctica, solo sobre los RA con nota inferior a 5. La nota obtenida representa el 100 % de esos RA.</li>
+        </ul>
+      </section>
+
+      <section id="rubricas">
+        <h2 id="rubricas-h2">Rúbricas de evaluación: así se valora tu trabajo</h2>
+        <p>Las <strong>rúbricas</strong> son los instrumentos que utiliza el profesorado para valorar cada evidencia. Conocerlas antes de una actividad te dice <strong>exactamente qué se espera de ti</strong> y cómo llegar al nivel más alto: no es información secreta, es tu hoja de ruta.</p>
+        <p>Se utilizan <strong>tres rúbricas generales</strong> en todo el módulo, de forma independiente o combinada según la actividad.</p>
+
+        <div class="callout callout--key">
+          <p><strong>💡 Idea clave:</strong> busca siempre el nivel coloreado en verde: <strong>10 · Excelente</strong>. Cada columna de la rúbrica describe, paso a paso, lo que debes conseguir en una actividad, práctica o prueba.</p>
+        </div>
+
+        <h3>Cuánto pesa cada tipo de evidencia</h3>
+        <p>En todas las unidades se combinan el trabajo diario, la teoría y la práctica. La <strong>prueba práctica es la que más pesa</strong>: por eso el dominio de las herramientas es tu mayor inversión.</p>
+
+        <div class="table-wrap">
+          <table aria-label="Peso habitual de cada tipo de evidencia en las unidades del módulo">
+            <thead>
+              <tr>
+                <th>Evidencia</th>
+                <th>Peso habitual en cada unidad</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Actividades de observación (trabajo diario)</td><td>10 %</td></tr>
+              <tr><td>Actividades teóricas (cuestionarios)</td><td>5–10 %</td></tr>
+              <tr><td>Actividades teórico-prácticas</td><td>10 %</td></tr>
+              <tr><td>Prueba objetiva teórica</td><td>10–20 %</td></tr>
+              <tr><td><strong>Prueba objetiva práctica</strong></td><td><strong>50–65 %</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="callout callout--summary">
+          <p>Cada unidad publica su tabla de calificación exacta en el aula virtual. Los rangos anteriores son la pauta común del módulo.</p>
+        </div>
+
+        <article class="rubric">
+          <div class="rubric__head">
+            <h3>Rúbrica 1 · Observación sistemática del trabajo diario</h3>
+          </div>
+          <div class="table-wrap">
+            <table aria-label="Rúbrica 1: observación sistemática del trabajo diario">
+              <thead>
+                <tr>
+                  <th class="c-criterio" scope="col">Criterio</th>
+                  <th class="c-peso" scope="col">Peso</th>
+                  <th class="c-nivel c-10" scope="col">10 · Excelente</th>
+                  <th class="c-nivel c-7" scope="col">7 · Bien</th>
+                  <th class="c-nivel c-4" scope="col">4 · Aceptable</th>
+                  <th class="c-nivel c-1" scope="col">1 · A desarrollar</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Participación profesional</strong></td>
+                  <td class="c-peso">15 %</td>
+                  <td>Participa activamente, realiza aportaciones relevantes y contribuye al desarrollo de las actividades y retos propuestos.</td>
+                  <td>Participa habitualmente y realiza aportaciones adecuadas.</td>
+                  <td>Participa de manera limitada o irregular.</td>
+                  <td>Apenas participa o muestra desinterés por las actividades.</td>
+                </tr>
+                <tr>
+                  <td><strong>Gestión del tiempo</strong></td>
+                  <td class="c-peso">15 %</td>
+                  <td>Organiza eficazmente las tareas y aprovecha todo el tiempo disponible.</td>
+                  <td>Gestiona correctamente el tiempo con pequeñas desviaciones.</td>
+                  <td>Necesita recordatorios para finalizar las tareas.</td>
+                  <td>No organiza adecuadamente el trabajo ni aprovecha el tiempo disponible.</td>
+                </tr>
+                <tr>
+                  <td><strong>Trabajo colaborativo</strong></td>
+                  <td class="c-peso">15 %</td>
+                  <td>Colabora activamente con los compañeros y compañeras, comparte información y favorece el trabajo en equipo.</td>
+                  <td>Coopera adecuadamente con el grupo.</td>
+                  <td>Colabora de manera limitada.</td>
+                  <td>No coopera o dificulta el trabajo conjunto.</td>
+                </tr>
+                <tr>
+                  <td><strong>Autonomía</strong></td>
+                  <td class="c-peso">15 %</td>
+                  <td>Desarrolla las actividades sin necesidad de ayuda y resuelve incidencias de manera adecuada.</td>
+                  <td>Trabaja con autonomía y pide ayuda puntualmente.</td>
+                  <td>Requiere orientación frecuente.</td>
+                  <td>Depende constantemente de la ayuda externa.</td>
+                </tr>
+                <tr>
+                  <td><strong>Responsabilidad profesional</strong></td>
+                  <td class="c-peso">20 %</td>
+                  <td>Cumple sistemáticamente las tareas asignadas, muestra iniciativa y mantiene una actitud profesional.</td>
+                  <td>Cumple adecuadamente las responsabilidades asignadas.</td>
+                  <td>Cumple las tareas de manera irregular.</td>
+                  <td>No asume las responsabilidades asignadas.</td>
+                </tr>
+                <tr>
+                  <td><strong>Cumplimiento de normas y uso responsable de los recursos digitales</strong></td>
+                  <td class="c-peso">20 %</td>
+                  <td>Respeta las normas del aula, utiliza adecuadamente los equipos informáticos y hace un uso responsable de las tecnologías digitales.</td>
+                  <td>Respeta habitualmente las normas establecidas.</td>
+                  <td>Necesita recordatorios frecuentes.</td>
+                  <td>Incumple reiteradamente las normas o hace un uso inadecuado de los recursos digitales.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="rubric__levels">
+            <span class="rubric__level rubric__level--10"><i></i> 10 · Excelente</span>
+            <span class="rubric__level rubric__level--7"><i></i> 7 · Bien</span>
+            <span class="rubric__level rubric__level--4"><i></i> 4 · Aceptable</span>
+            <span class="rubric__level rubric__level--1"><i></i> 1 · A desarrollar</span>
+            <span class="rubric__level">ℹ️ En pantallas pequeñas, desliza la tabla a los lados para ver todos los niveles.</span>
+          </div>
+        </article>
+
+        <article class="rubric">
+          <div class="rubric__head">
+            <h3>Rúbrica 2 · Actividades prácticas y retos profesionales</h3>
+          </div>
+          <div class="table-wrap">
+            <table aria-label="Rúbrica 2: actividades prácticas y retos profesionales">
+              <thead>
+                <tr>
+                  <th class="c-criterio" scope="col">Criterio</th>
+                  <th class="c-peso" scope="col">Peso</th>
+                  <th class="c-nivel c-10" scope="col">10 · Excelente</th>
+                  <th class="c-nivel c-7" scope="col">7 · Bien</th>
+                  <th class="c-nivel c-4" scope="col">4 · Aceptable</th>
+                  <th class="c-nivel c-1" scope="col">1 · A desarrollar</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Análisis de la situación planteada</strong></td>
+                  <td class="c-peso">15 %</td>
+                  <td>Comprende completamente la situación, identifica todas las necesidades y selecciona adecuadamente las herramientas a utilizar.</td>
+                  <td>Identifica correctamente la mayor parte de los elementos de la situación.</td>
+                  <td>Comprende parcialmente la situación planteada.</td>
+                  <td>No identifica adecuadamente las necesidades u objetivos de la tarea.</td>
+                </tr>
+                <tr>
+                  <td><strong>Aplicación de los procedimientos y uso de las herramientas digitales</strong></td>
+                  <td class="c-peso">20 %</td>
+                  <td>Utiliza con precisión las aplicaciones y procedimientos requeridos, obteniendo resultados correctos y eficientes.</td>
+                  <td>Utiliza adecuadamente las herramientas con errores menores.</td>
+                  <td>Presenta dificultades en la aplicación de los procedimientos.</td>
+                  <td>Utiliza incorrectamente las herramientas o no completa la tarea.</td>
+                </tr>
+                <tr>
+                  <td><strong>Calidad técnica del resultado obtenido</strong></td>
+                  <td class="c-peso">15 %</td>
+                  <td>El producto final es completo, funcional, correcto y se ajusta a los requisitos establecidos.</td>
+                  <td>El resultado es adecuado con pequeñas erratas.</td>
+                  <td>Presenta carencias relevantes.</td>
+                  <td>El resultado no cumple los requisitos mínimos exigidos.</td>
+                </tr>
+                <tr>
+                  <td><strong>Organización y estructura del trabajo</strong></td>
+                  <td class="c-peso">10 %</td>
+                  <td>La información está perfectamente organizada, estructurada y es fácil de interpretar.</td>
+                  <td>Presenta una organización adecuada.</td>
+                  <td>La organización es parcialmente correcta.</td>
+                  <td>La información se presenta desorganizada.</td>
+                </tr>
+                <tr>
+                  <td><strong>Autonomía en la resolución de la tarea</strong></td>
+                  <td class="c-peso">10 %</td>
+                  <td>Resuelve la mayor parte de las dificultades de forma autónoma.</td>
+                  <td>Necesita ayuda puntual.</td>
+                  <td>Requiere apoyo frecuente.</td>
+                  <td>Necesita ayuda constante para completar la tarea.</td>
+                </tr>
+                <tr>
+                  <td><strong>Cumplimiento de requisitos e instrucciones</strong></td>
+                  <td class="c-peso">10 %</td>
+                  <td>Cumple íntegramente todas las instrucciones, requisitos y especificaciones de la tarea.</td>
+                  <td>Cumple la mayoría de los requisitos.</td>
+                  <td>Omite algunos requisitos importantes.</td>
+                  <td>No respeta las instrucciones o requisitos establecidos.</td>
+                </tr>
+                <tr>
+                  <td><strong>Gestión del tiempo y entrega</strong></td>
+                  <td class="c-peso">10 %</td>
+                  <td>Finaliza la tarea dentro del plazo previsto y gestiona adecuadamente el tiempo disponible.</td>
+                  <td>Cumple los plazos con pequeñas desviaciones.</td>
+                  <td>Presenta retrasos ocasionales.</td>
+                  <td>No cumple los plazos establecidos.</td>
+                </tr>
+                <tr>
+                  <td><strong>Comunicación técnica y presentación</strong></td>
+                  <td class="c-peso">10 %</td>
+                  <td>Presenta el trabajo con claridad, corrección y vocabulario técnico adecuado.</td>
+                  <td>La presentación es correcta.</td>
+                  <td>Presenta limitaciones de forma o vocabulario.</td>
+                  <td>La presentación dificulta la comprensión del trabajo realizado.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="rubric__levels">
+            <span class="rubric__level rubric__level--10"><i></i> 10 · Excelente</span>
+            <span class="rubric__level rubric__level--7"><i></i> 7 · Bien</span>
+            <span class="rubric__level rubric__level--4"><i></i> 4 · Aceptable</span>
+            <span class="rubric__level rubric__level--1"><i></i> 1 · A desarrollar</span>
+            <span class="rubric__level">ℹ️ En pantallas pequeñas, desliza la tabla a los lados para ver todos los niveles.</span>
+          </div>
+        </article>
+
+        <article class="rubric">
+          <div class="rubric__head">
+            <h3>Rúbrica 3 · Pruebas prácticas y retos específicos de cada resultado de aprendizaje</h3>
+          </div>
+          <div class="table-wrap">
+            <table aria-label="Rúbrica 3: pruebas prácticas y retos específicos de cada resultado de aprendizaje">
+              <thead>
+                <tr>
+                  <th class="c-criterio" scope="col">Criterio</th>
+                  <th class="c-peso" scope="col">Peso</th>
+                  <th class="c-nivel c-10" scope="col">10 · Excelente</th>
+                  <th class="c-nivel c-7" scope="col">7 · Bien</th>
+                  <th class="c-nivel c-4" scope="col">4 · Aceptable</th>
+                  <th class="c-nivel c-1" scope="col">1 · A desarrollar</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Dominio técnico de la práctica</strong></td>
+                  <td class="c-peso">50 %</td>
+                  <td>Ejecuta correctamente todas las tareas requeridas, utiliza las funcionalidades adecuadas y obtiene un resultado completamente correcto y operativo.</td>
+                  <td>Ejecuta adecuadamente la mayor parte de la práctica, con errores menores que no afectan sustancialmente el resultado final.</td>
+                  <td>Completa parcialmente la práctica o presenta errores significativos que afectan parte del resultado.</td>
+                  <td>No completa la práctica o el resultado obtenido no cumple los requisitos mínimos exigidos.</td>
+                </tr>
+                <tr>
+                  <td><strong>Aplica correctamente las herramientas y funcionalidades requeridas</strong></td>
+                  <td class="c-peso">10 %</td>
+                  <td>Utiliza con precisión y eficacia todas las herramientas y funcionalidades necesarias para resolver la tarea.</td>
+                  <td>Utiliza adecuadamente la mayor parte de las herramientas requeridas.</td>
+                  <td>Presenta dificultades en el uso de algunas herramientas o funcionalidades.</td>
+                  <td>No utiliza correctamente las herramientas necesarias o requiere ayuda constante.</td>
+                </tr>
+                <tr>
+                  <td><strong>Organiza la información de manera clara, coherente y funcional</strong></td>
+                  <td class="c-peso">10 %</td>
+                  <td>La información está perfectamente estructurada, organizada y facilita su consulta y utilización posterior.</td>
+                  <td>La información presenta una organización adecuada con pequeñas deficiencias.</td>
+                  <td>La organización es parcialmente correcta y dificulta en algunos momentos la comprensión del trabajo.</td>
+                  <td>La información se presenta de manera desorganizada o confusa.</td>
+                </tr>
+                <tr>
+                  <td><strong>Gestiona adecuadamente el tiempo de realización</strong></td>
+                  <td class="c-peso">5 %</td>
+                  <td>Organiza eficazmente las tareas y finaliza la práctica dentro del tiempo previsto sin incidencias.</td>
+                  <td>Gestiona correctamente el tiempo con ligeras desviaciones.</td>
+                  <td>Necesita recordatorios o presenta dificultades para finalizar dentro del plazo establecido.</td>
+                  <td>No gestiona adecuadamente el tiempo ni finaliza la tarea en el plazo previsto.</td>
+                </tr>
+                <tr>
+                  <td><strong>Trabaja de manera autónoma y resuelve incidencias básicas</strong></td>
+                  <td class="c-peso">5 %</td>
+                  <td>Resuelve de manera autónoma las dificultades habituales y busca alternativas adecuadas cuando aparecen incidencias.</td>
+                  <td>Necesita ayuda puntual para resolver algunas incidencias.</td>
+                  <td>Requiere orientación frecuente para continuar el desarrollo de la práctica.</td>
+                  <td>Depende constantemente de la ayuda externa para completar la tarea.</td>
+                </tr>
+                <tr>
+                  <td><strong>Cumple los requisitos de formato e instrucciones establecidos</strong></td>
+                  <td class="c-peso">5 %</td>
+                  <td>Respeta íntegramente todas las instrucciones, especificaciones y requisitos establecidos para la actividad.</td>
+                  <td>Cumple la mayor parte de los requisitos e instrucciones.</td>
+                  <td>Omite algunos requisitos o presenta desviaciones significativas.</td>
+                  <td>No respeta las instrucciones o los requisitos mínimos de la práctica.</td>
+                </tr>
+                <tr>
+                  <td><strong>Aplica criterios de confidencialidad y protección de datos</strong></td>
+                  <td class="c-peso">5 %</td>
+                  <td>Demuestra en todo momento un uso responsable de la información y aplica correctamente los criterios de seguridad y confidencialidad.</td>
+                  <td>Respeta adecuadamente las normas básicas de protección de datos.</td>
+                  <td>Presenta omisiones puntuales relacionadas con la confidencialidad o la seguridad de la información.</td>
+                  <td>Hace un uso inadecuado de la información o ignora las normas básicas de protección de datos.</td>
+                </tr>
+                <tr>
+                  <td><strong>Mantiene una comunicación profesional adecuada</strong></td>
+                  <td class="c-peso">5 %</td>
+                  <td>Utiliza un lenguaje claro, preciso y adecuado al contexto profesional, tanto oralmente como por escrito.</td>
+                  <td>La comunicación es adecuada con algunas imprecisiones puntuales.</td>
+                  <td>Presenta dificultades ocasionales de expresión o utiliza un lenguaje poco adecuado.</td>
+                  <td>La comunicación dificulta la comprensión o resulta inadecuada para el contexto profesional.</td>
+                </tr>
+                <tr>
+                  <td><strong>Presenta un resultado final correcto y funcional</strong></td>
+                  <td class="c-peso">5 %</td>
+                  <td>El producto final cumple íntegramente los objetivos de la práctica y es completamente funcional y profesional.</td>
+                  <td>El resultado final es correcto y funcional con pequeñas incidencias.</td>
+                  <td>El producto presenta carencias relevantes pero mantiene parte de la funcionalidad prevista.</td>
+                  <td>El resultado final es insuficiente o no permite cumplir los objetivos de la práctica.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="rubric__levels">
+            <span class="rubric__level rubric__level--10"><i></i> 10 · Excelente</span>
+            <span class="rubric__level rubric__level--7"><i></i> 7 · Bien</span>
+            <span class="rubric__level rubric__level--4"><i></i> 4 · Aceptable</span>
+            <span class="rubric__level rubric__level--1"><i></i> 1 · A desarrollar</span>
+            <span class="rubric__level">ℹ️ En pantallas pequeñas, desliza la tabla a los lados para ver todos los niveles.</span>
+          </div>
+        </article>
+
+        <h3>Cómo leer estas rúbricas</h3>
+        <ul>
+          <li>Cada criterio tiene un <strong>peso propio</strong>: los de mayor porcentaje son los que más mueven tu nota (por ejemplo, el dominio técnico vale el 50 % en las pruebas prácticas).</li>
+          <li>El nivel <strong>10 · Excelente</strong> describe la actuación objetivo: si cumples esa columna, tu trabajo estará en el nivel máximo.</li>
+          <li>Las rúbricas pueden aplicarse solas o combinadas según la actividad, y siempre se comunican con antelación al alumnado.</li>
+        </ul>
+
+        <div class="callout callout--example">
+          <p><strong>Ejemplo:</strong> antes de una prueba práctica, abre la Rúbrica 3 y comprueba contra la columna verde: ¿completo todas las tareas?, ¿uso las herramientas correctas?, ¿organizo la información?, ¿cumplo el formato?, ¿protejo los datos?, ¿comunico con claridad? Así sabrás, antes de entregar, si tu resultado está en nivel excelente.</p>
+        </div>
+      </section>
+
+      <section id="calendario">
+        <h2 id="calendario-h2">Calendario orientativo</h2>
+        <p>Reparto de horas por unidad según la programación oficial. <strong>Total: 200 horas</strong>.</p>
+
+        <!-- IMAGEN SUGERIDA: calendario-modulo (línea temporal visual del curso por trimestres) -->
+        <div class="image-placeholder">
+          Imagen recomendada: <strong>Línea temporal del curso con el reparto de unidades por evaluación</strong>
+        </div>
+
+        <ul class="hours-list">
+          <li>
+            <div class="hours-top"><strong>UP01 · Mantenimiento de equipos, aplicaciones y red</strong><em>20 h</em></div>
+            <div class="hbar"><span style="width:10%"></span></div>
+          </li>
+          <li>
+            <div class="hours-top"><strong>UP02 · Técnica mecanográfica</strong><em>45 h</em></div>
+            <div class="hbar"><span style="width:22.5%"></span></div>
+          </li>
+          <li>
+            <div class="hours-top"><strong>UP03 · Gestión de archivos y búsqueda de información</strong><em>10 h</em></div>
+            <div class="hbar"><span style="width:5%"></span></div>
+          </li>
+          <li>
+            <div class="hours-top"><strong>UP04 · Hojas de cálculo</strong><em>35 h</em></div>
+            <div class="hbar"><span style="width:17.5%"></span></div>
+          </li>
+          <li>
+            <div class="hours-top"><strong>UP05 · Procesadores de texto</strong><em>30 h</em></div>
+            <div class="hbar"><span style="width:15%"></span></div>
+          </li>
+          <li>
+            <div class="hours-top"><strong>UP06 · Bases de datos</strong><em>12 h aula + 18 h empresa</em></div>
+            <div class="hbar"><span style="width:15%"></span></div>
+          </li>
+          <li>
+            <div class="hours-top"><strong>UP07 · Gestión integrada de archivos</strong><em>10 h</em></div>
+            <div class="hbar"><span style="width:5%"></span></div>
+          </li>
+          <li>
+            <div class="hours-top"><strong>UP08 · Correo y agenda electrónica</strong><em>10 h</em></div>
+            <div class="hbar"><span style="width:5%"></span></div>
+          </li>
+          <li>
+            <div class="hours-top"><strong>UP09 · Presentaciones</strong><em>10 h</em></div>
+            <div class="hbar"><span style="width:5%"></span></div>
+          </li>
+        </ul>
+
+        <div class="callout callout--summary">
+          <p>Las horas de examen están incluidas dentro de cada unidad. La UP06 incluye 18 horas de formación en empresa (dual).</p>
+        </div>
+      </section>
+
+      <section id="herramientas">
+        <h2 id="herramientas-h2">Herramientas que utilizaremos</h2>
+        <p>El ecosistema ofimático del puesto de trabajo administrativo-sanitario, que dominarás con uso profesional:</p>
+
+        <div class="tool-grid">
+          <div class="card">
+            <div class="card__icon">🧰</div>
+            <h3>Suite ofimática</h3>
+            <p>Procesador de textos, hoja de cálculo, presentaciones y base de datos.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">🗂️</div>
+            <h3>Gestor de archivos</h3>
+            <p>Organización, compresión e intercambio de documentos.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">📧</div>
+            <h3>Correo y agenda</h3>
+            <p>Aplicaciones de correo electrónico y agenda para la organización profesional.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">⌨️</div>
+            <h3>Mecanografía</h3>
+            <p>Aplicaciones de entrenamiento de velocidad, precisión y técnica.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">🎓</div>
+            <h3>Aula virtual Aules</h3>
+            <p>Material, entrega de actividades, cuestionarios y calificaciones en Moodle.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">🌐</div>
+            <h3>Web y multimedia</h3>
+            <p>Navegador, captura de pantalla e integración de archivos audiovisuales.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="consejos">
+        <h2 id="consejos-h2">Consejos para obtener buenos resultados</h2>
+
+        <div class="do-dont">
+          <div class="card">
+            <h3>✅ Claves para un nivel excelente</h3>
+            <ul>
+              <li>Entregar las actividades dentro del plazo.</li>
+              <li>Seguir todas las instrucciones y leerlas con calma.</li>
+              <li>Aplicar correctamente las herramientas digitales.</li>
+              <li>Revisar el trabajo antes de entregarlo.</li>
+              <li>Usar vocabulario profesional.</li>
+              <li>Mantener una actitud responsable y colaborativa.</li>
+              <li>Dominar la parte práctica con solvencia.</li>
+            </ul>
+          </div>
+          <div class="card card--avoid">
+            <h3>❌ Errores que bajan la nota</h3>
+            <ul>
+              <li>Entregar fuera de plazo.</li>
+              <li>No leer las instrucciones.</li>
+              <li>Presentar documentos sin revisar.</li>
+              <li>No comprobar las entregas.</li>
+              <li>Depender del trabajo de otras personas.</li>
+              <li>No guardar correctamente los archivos.</li>
+              <li>Copiar trabajos.</li>
+              <li>No respetar las normas de confidencialidad.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="callout callout--reflect">
+          <p>Antes de entregar cualquier trabajo, pregúntate: ¿se entiende?, ¿está bien guardado y bien nombrado?, ¿respeta la privacidad de los datos?</p>
+        </div>
+      </section>
+
+      <section id="faq">
+        <h2 id="faq-h2">Preguntas frecuentes</h2>
+
+        <div class="faq">
+          <details>
+            <summary>¿Necesito conocimientos previos de informática?</summary>
+            <div class="faq__body">
+              <p>No. El módulo parte de cero y avanza de forma progresiva. La constancia y la práctica diaria valen más que la experiencia previa.</p>
+            </div>
+          </details>
+          <details>
+            <summary>¿Qué pasa si no consigo las 200 pulsaciones por minuto?</summary>
+            <div class="faq__body">
+              <p>Es el requisito imprescindible para superar el RA2. Por eso la mecanografía se entrena cada semana durante todo el curso: la progresión está diseñada para llegar a ese nivel.</p>
+            </div>
+          </details>
+          <details>
+            <summary>¿Cómo se calcula la nota final?</summary>
+            <div class="faq__body">
+              <p>Ponderando los resultados de aprendizaje. RA2 (25 %) tiene el mayor peso, seguido de RA4, RA5 y RA6 (15 % cada uno). La fórmula completa está en la sección «Cómo te evaluarán».</p>
+            </div>
+          </details>
+          <details>
+            <summary>¿Qué ocurre si suspendo un resultado de aprendizaje?</summary>
+            <div class="faq__body">
+              <p>La evaluación no superada se recupera en la convocatoria ordinaria (a final de curso). Si sigue suspensa, se acude a la extraordinaria, que solo versa sobre los RA con nota inferior a 5.</p>
+            </div>
+          </details>
+          <details>
+            <summary>¿Cuándo se usa la convocatoria extraordinaria?</summary>
+            <div class="faq__body">
+              <p>Siempre con el asesoramiento del equipo docente: el alumnado decide si se presenta o renuncia. La prueba es escrita y práctica, y su nota supone el 100 % de esos RA.</p>
+            </div>
+          </details>
+          <details>
+            <summary>¿Cuántas horas de formación en empresa tiene el módulo?</summary>
+            <div class="faq__body">
+              <p>18 horas, correspondientes a la UP06 (Bases de datos). Puede haber ajustes en función del calendario del ciclo.</p>
+            </div>
+          </details>
+          <details>
+            <summary>¿Dónde está el material y las actividades?</summary>
+            <div class="faq__body">
+              <p>En el aula virtual Aules, junto con la guía de la programación y las tablas de calificación de cada unidad.</p>
+            </div>
+          </details>
+          <details>
+            <summary>¿Qué hago si una actividad me sale mal?</summary>
+            <div class="faq__body">
+              <p>Pide ayuda a tiempo, revisa la rúbrica antes de entregar y no dejes los envíos para el final: la mejora continua cuenta.</p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section id="viaje">
+        <div class="cta-final">
+          <h2 id="viaje-h2">Comienza tu viaje</h2>
+          <p>La ofimática es la base de la gestión sanitaria moderna. Con constancia, orden y buen criterio, este módulo te aportará una competencia valiosa y muy demandada.</p>
+          <p>Tu meta: <strong>dominar las herramientas, respetar la información y cuidar los detalles</strong>. El equipo docente te acompañará en cada unidad.</p>
+          <a class="btn" href="#que-aprenderas">Empieza por saber qué aprenderás</a>
+        </div>
+      </section>
+
+      <nav class="page-nav">
+        <div class="page-nav__item">
+          <small>Inicio</small>
+          Presentación del módulo
+        </div>
+        <a class="page-nav__item page-nav__item--next" href="#">
+          <small>Siguiente</small>
+          UP01 · Mantenimiento de equipos, aplicaciones y red →
+        </a>
+      </nav>
+
+    </main>
+
+  </div>
+
+  <footer class="footer">
+    <p>Material Moodle bilingüe de Vibecoding · HTML generado desde Markdown · CC BY-SA 4.0</p>
+    <p style="margin-top:0.3rem; font-size:0.78rem; opacity:0.7">
+      Ofimática · Presentación del módulo · CFGS Documentación y Administración Sanitarias
+    </p>
+  </footer>
+
+  <button class="backtotop" id="btnTop" aria-label="Volver arriba">↑</button>
+
+  <script src="js/navegacion.js"></script>
+</body>
+</html>

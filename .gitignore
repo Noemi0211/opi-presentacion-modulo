@@ -1,0 +1,18 @@
+# ============================================================
+# OPI · Presentación del módulo · .gitignore
+# El PDF fuente tiene licencia CC BY-NC-SA 4.0 (no se publica).
+# El material web es CC BY-SA 4.0.
+# ============================================================
+
+# Fuente original (licencia distinta: BY-NC-SA)
+*.pdf
+
+# Archivos de sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs y temporales
+*.log
+*.tmp
+*.bak

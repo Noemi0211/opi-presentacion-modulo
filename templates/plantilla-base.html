@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="[[DESCRIPCION]] · CFGS Documentación y Administración Sanitarias. Material Moodle bilingüe de Vibecoding.">
+  <meta name="author" content="Noemí Celaya Mingot">
+  <meta name="license" content="CC BY-SA 4.0">
+  <title>[[TITULO_PAGINA]] · Ofimática</title>
+
+  <!-- Google Fonts: Syne + DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+
+  <!-- Hoja de estilos compartida -->
+  <link rel="stylesheet" href="[[URL_RAIZ]]css/estilos.css">
+
+  <!-- Iconos (favicon inline SVG) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231A1F2E'/%3E%3Ctext x='16' y='21' font-family='Syne,sans-serif' font-size='14' font-weight='700' fill='%234ECCA3' text-anchor='middle'%3EOP%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+  <!-- ================= CABECERA FIJA ================= -->
+  <header class="header">
+    <div class="header__brand">
+      <button class="header__menu-btn" id="btnMenu" aria-label="Abrir menú" aria-expanded="false" aria-controls="sidebar">☰</button>
+      <a href="[[URL_RAIZ]]index.html">
+        <span class="header__logo">OP</span>
+        <span class="header__title">
+          [[TITULO_PAGINA]]
+          <small>OFIMÁTICA · CFGS Documentación y Administración Sanitarias</small>
+        </span>
+      </a>
+    </div>
+    <div class="header__right">
+      <!-- Reservado: selector de idioma, enlaces externos, etc. -->
+    </div>
+  </header>
+
+  <!-- ================= ESTRUCTURA LAYOUT ================= -->
+  <div class="layout">
+
+    <!-- ================= MENÚ LATERAL FIJO ================= -->
+    <aside class="sidebar" id="sidebar" aria-label="Menú de navegación">
+      <nav>
+        <div class="sidebar__section">
+          <div class="sidebar__label">Unidades del módulo</div>
+          <ul class="sidebar__blocks">
+            <li class="sidebar__block"><a href="index.html"><span>Inicio</span> Presentación del módulo</a></li>
+            <li class="sidebar__block"><a href="[[URL_RAIZ]]UP01/index.html"><span>UP01</span> Mantenimiento de equipos, aplicaciones y red</a></li>
+            <li class="sidebar__block"><a href="[[URL_RAIZ]]UP02/index.html"><span>UP02</span> Técnica mecanográfica</a></li>
+            <li class="sidebar__block"><a href="[[URL_RAIZ]]UP03/index.html"><span>UP03</span> Gestión de archivos y búsqueda de información</a></li>
+            <li class="sidebar__block"><a href="[[URL_RAIZ]]UP04/index.html"><span>UP04</span> Hojas de cálculo</a></li>
+            <li class="sidebar__block"><a href="[[URL_RAIZ]]UP05/index.html"><span>UP05</span> Procesadores de texto</a></li>
+            <li class="sidebar__block"><a href="[[URL_RAIZ]]UP06/index.html"><span>UP06</span> Bases de datos</a></li>
+            <li class="sidebar__block"><a href="[[URL_RAIZ]]UP07/index.html"><span>UP07</span> Gestión integrada de archivos</a></li>
+            <li class="sidebar__block"><a href="[[URL_RAIZ]]UP08/index.html"><span>UP08</span> Correo y agenda electrónica</a></li>
+            <li class="sidebar__block"><a href="[[URL_RAIZ]]UP09/index.html"><span>UP09</span> Presentaciones</a></li>
+          </ul>
+        </div>
+
+        <div class="sidebar__section">
+          <div class="sidebar__label">En esta página</div>
+          <!-- Enlaces a las secciones de la página actual (definidos por página) -->
+          [[NAV_INTERNA]]
+        </div>
+      </nav>
+
+      <div class="sidebar__footer">
+        Material Moodle bilingüe de Vibecoding<br>
+        HTML generado desde Markdown · CC BY-SA 4.0
+      </div>
+    </aside>
+
+    <!-- ================= CONTENIDO PRINCIPAL ================= -->
+    <main class="main" id="main">
+      [[CONTENIDO]]
+    </main>
+
+  </div>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p>Material Moodle bilingüe de Vibecoding · HTML generado desde Markdown · CC BY-SA 4.0</p>
+    <p style="margin-top:0.3rem; font-size:0.78rem; opacity:0.7">
+      Ofimática · CFGS Documentación y Administración Sanitarias · Curso 26-27
+    </p>
+  </footer>
+
+  <!-- Botón volver arriba -->
+  <button class="backtotop" id="btnTop" aria-label="Volver arriba">↑</button>
+
+  <!-- JS compartido -->
+  <script src="[[URL_RAIZ]]js/navegacion.js"></script>
+</body>
+</html>
