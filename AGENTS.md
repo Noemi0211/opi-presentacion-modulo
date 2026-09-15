@@ -17,9 +17,14 @@ Transformar el documento oficial `Resumen de la programación del módulo OPI.pd
 ```
 VSC/
 ├── AGENTS.md                     # Este archivo · memoria permanente
+├── .gitignore                    # Excluye el PDF fuente (BY-NC-SA) y temporales
 ├── index.md                      # Presentación del módulo (fuente Markdown)
 ├── index.html                    # Presentación del módulo (HTML final)
+├── cuestionarios/
+│   └── 01-cuestionario-presentacion.gift    # Banco GIFT del quiz inicial (10 preguntas)
 ├── docs/                         # Documentación de proceso (reservado)
+│   ├── instrucciones-aules.md    # Publicación + enlace del material en Aules
+│   └── cuestionario-inicial-aules.md        # Importación y ajustes del quiz inicial
 ├── html/                         # Salidas HTML intermedias (reservado)
 ├── css/estilos.css               # CSS único y compartido de TODO el curso
 ├── js/navegacion.js              # Navegación compartida (menú, scroll-spy, TOC, volver arriba)
@@ -69,9 +74,15 @@ Cronológico:
 
 - [ ] Validar imágenes definitivas y sustituir los marcadores `<!-- IMAGEN SUGERIDA -->` / `.image-placeholder`.
 - [ ] Generar contenido de las unidades UP01 → UP09 (fases posteriores, una UP por fase).
-- [ ] Conectar la navegación de la presentación con las páginas de las UP cuando se publiquen.
-- [ ] Publicar en GitHub Pages cuando el usuario lo solicite (repo aún por confirmar).
+- [ ] Conectar la navegación de la presentación con las páginas de las UP cuando se publiquen (el `page-nav` «Siguiente» de la portada apunta al cuestionario inicial en Aules; cuando exista UP01, decidir si el segundo enlace de la barra pasa a apuntarla).
 - [ ] Decidir e incorporar MC/ADR para el bilingüismo es/val del material (pendiente).
+
+## Estado actual para retomar (2026-09-15)
+
+- GitHub Pages activo y verificado: `https://noemi0211.github.io/opi-presentacion-modulo/`.
+- En Aules: el recurso URL de la presentación y el **Cuestionario inicial** (id `11231945`) ya están creados por el usuario (importaciones y ajustes según `docs/cuestionario-inicial-aules.md`).
+- Repositorio `Noemi0211/opi-presentacion-modulo` · rama `main` · remote `origin` · cada cambio se commitea y se hace push.
+- Acuerdo de trabajo: añadir una entrada cronológica en «Tareas completadas» por cada cambio; al retomar, leer este archivo y, si hay que continuar una fase, revisar también `docs/` y las guías de Aules.
 
 ## Decisiones importantes
 
