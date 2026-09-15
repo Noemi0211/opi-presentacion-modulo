@@ -63,6 +63,7 @@ Cronológico:
 10. **2026-09-15 · Lista para publicar en GitHub Pages.** Creado `.gitignore` (excluye el PDF fuente, licencia BY-NC-SA) y `docs/instrucciones-aules.md` (pasos exactos de repositorio, GitHub Pages y enlazado en Aules). Repositorio git inicializado (rama `main`) y **commit inicial realizado: `54df32d`**. Pendiente de usuario: crear repo remoto, push y activar GitHub Pages.
 11. **2026-09-15 · Publicación.** Repositorio público creado: `Noemi0211/opi-presentacion-modulo` (remote `origin`), push realizado y **GitHub Pages activado**. URL: `https://noemi0211.github.io/opi-presentacion-modulo/` (verificada HTTP 200 con la portada cargando). Pendiente de usuario: enlazar el recurso URL en Aules (ver `docs/instrucciones-aules.md`, paso 4).
 12. **2026-09-15 · Cuestionario inicial.** Creado `cuestionarios/01-cuestionario-presentacion.gift` (10 preguntas tipo test × 4 opciones, 1 correcta; categoría `OFI/OPI/PRES/01-presentacion-modulo`; UTF-8 sin BOM, validado por script) y `docs/cuestionario-inicial-aules.md` (importación, montaje del quiz y ajustes: intentos ilimitados antes del cierre, mejor nota en el libro, revisión libre tras el cierre; la fecha de finalización la pone el usuario en la plataforma).
+13. **2026-09-15 · «Siguiente» → cuestionario.** El `page-nav` final de la presentación apunta ahora al cuestionario inicial en Aules (`https://aules.edu.gva.es/fp/mod/quiz/view.php?id=11231945`) en lugar de la UP01 (índice e `index.md` actualizados). El enlace a la UP01 seguirá pendiente hasta generar su contenido.
 
 ## Tareas pendientes
 

@@ -262,7 +262,7 @@ La Ofimática es la base de la gestión sanitaria moderna. Con constancia, orden
 
 Tu meta: **dominar las herramientas, respetar la información y cuidar los detalles**. El equipo docente te acompañará en cada unidad.
 
-**Empieza por la UP01 · Mantenimiento básico de equipos, aplicaciones y red.**
+**Sigue con el cuestionario inicial de la presentación del módulo en Aules:** comprueba que has entendido las reglas del juego antes de empezar.
 
 ---
 
