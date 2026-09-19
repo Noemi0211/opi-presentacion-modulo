@@ -24,10 +24,12 @@ Autora: Noemí Celaya Mingot · Licencia original: CC BY-NC-SA 4.0
 ## Imágenes sugeridas para la presentación
 
 ### Nombre: portada-bienvenida
-- **Procedencia:** Recurso propio o banco de imágenes (la portada del PDF no es apta para recorte).
+- **Procedencia:** Recurso propio (preparado por la autora). **VALIDADA 2026-09-19.**
 - **Uso recomendado:** Sección «Bienvenida al módulo», primer bloque visual antes del índice automático (lugar destacado del hero).
-- **Ubicación sugerida:** `images/opi-portada-bienvenida.png`
+- **Ubicación final:** `images/opi-portada-bienvenida.jpeg`
 - **Alt text:** Escritorio de trabajo ofimático en un centro sanitario con documentos, datos y correo sobre la mesa de un administrativo sanitario.
+
+### Nombre: calendario-modulo
 
 ### Nombre: calendario-modulo
 - **Procedencia:** Guía visual del módulo (Annex III del PDF). Recrear como diagrama, no incrustar el original.
